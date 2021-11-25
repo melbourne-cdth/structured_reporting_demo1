@@ -1,0 +1,10 @@
+name: structured_reports
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - jupyter
+  - pip
+  - ipywidgets=7.6.4
+  - pip:
+    - markdown
